@@ -1,15 +1,9 @@
 import React from 'react';
 
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text } from 'react-native';
 
-const styles = StyleSheet.create({
-    container: {
-      alignItems: 'center',
-      flex: 1,
-      paddingHorizontal: 20,
-    },
-  });
+import styles from './styles';
 
-const Welcome = () => <View style={styles.container}><Text>Welcome</Text></View>;
+const Welcome = () => <View style={styles.container}><Text>Welcome bitch</Text></View>;
 
 export default Welcome;
